@@ -1,10 +1,13 @@
 PODS:
   - Cartography (0.6.0)
+  - PureLayout (3.0.1)
 
 DEPENDENCIES:
   - Cartography (~> 0.6)
+  - PureLayout
 
 SPEC CHECKSUMS:
   Cartography: 70af183a248547694a8cfaa6b989cb7e04589985
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
 
 COCOAPODS: 0.38.2

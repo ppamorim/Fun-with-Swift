@@ -1,46 +1,50 @@
-//
-//  ViewController.swift
-//  Fun With Swift
-//
-//  Created by Pedro Paulo Amorim on 22/09/15.
-//  Copyright © 2015 Pedro Paulo Amorim. All rights reserved.
-//
-
 import UIKit
-import Cartography
+import PureLayout
 
 class ViewController : UIViewController {
     
-    private var buttonOne : UIButton!
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.view.backgroundColor = UIColor.redColor()
-        addButtonOne()
-        
-        // Do any additional setup after loading the view, typically from a nib.
-//        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-//        appDelegate.startSecondViewController()
+    var didUpdateViews = false;
+    
+    var buttonOne: UIView = {
+        let view = UIView.newAutoLayoutView()
+        view.backgroundColor = UIColor.blueColor()
+        return view
+        }()
+    
+    override func loadView() {
+        view = UIView()
+        view.backgroundColor = UIColor.redColor()
+        view.addSubview(buttonOne)
+        view.setNeedsUpdateConstraints() // bootstrap Auto Layout
     }
+    
+    override func updateViewConstraints() {
+        if(!didUpdateViews) {
+            updateButtonOne()
+            didUpdateViews = true
+        }
+        super.updateViewConstraints()
+    }
+
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        self.view.backgroundColor = UIColor.redColor()
+//        addButtonOne()
+//        
+//        // Do any additional setup after loading the view, typically from a nib.
+////        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+////        appDelegate.startSecondViewController()
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    func addButtonOne() -> Void {
-        buttonOne = UIButton()
-        buttonOne.backgroundColor = UIColor.greenColor()
-        self.view.addSubview(buttonOne)
-        
-        constrain(buttonOne, self.view) { buttonOne, view in
-            buttonOne.left == view.right - 12
-            buttonOne.right == view.left + 12
-            buttonOne.bottom == view.bottom - 12
-        }
-        
-        buttonOne.translatesAutoresizingMaskIntoConstraints = false
-        
+    func updateButtonOne() -> Void {
+//        buttonOne.autoPinEdge(.Top, toEdge: .Bottom, ofView: self.view)
+        buttonOne.autoMatchDimension(.Width, toDimension: .Width, ofView: self.view)
+        buttonOne.autoSetDimension(.Height, toSize: 40.0)
     }
 
 }

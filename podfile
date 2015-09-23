@@ -4,5 +4,6 @@ use_frameworks!
 
 target 'Fun With Swift' do
     pod 'Cartography', '~> 0.6'
+    pod 'PureLayout'
 end
 

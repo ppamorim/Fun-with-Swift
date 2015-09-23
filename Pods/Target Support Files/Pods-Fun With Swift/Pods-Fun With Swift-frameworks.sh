@@ -53,7 +53,9 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-Fun With Swift/Cartography.framework'
+  install_framework 'Pods-Fun With Swift/PureLayout.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-Fun With Swift/Cartography.framework'
+  install_framework 'Pods-Fun With Swift/PureLayout.framework'
 fi
