@@ -7,130 +7,126 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		032EDD74D6FBA6203650F8E442720900 /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D302D0B66DFA94DC7E4DE7934F2434B /* Distribute.swift */; };
-		05E54AE087E903270A6BA0F6C04B350B /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B152E417EFF8CC6DCF30ED1A2B43C9 /* Property.swift */; };
-		0B8B5C2200B8936DA6DD202B1F9DFB76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9011C520EFA96D78421817354D237D35 /* Foundation.framework */; };
-		10D752E2F45A3F0D5914C8B2D16ED9B0 /* Pods-Fun With Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C56105F31B0DA40C018E937B3869EA4 /* Pods-Fun With Swift-dummy.m */; };
-		144577E02F10720EE2AE1CAB9EDB35DC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0A36F06FB9A577C08BC4DCC49D0E06 /* View.swift */; };
-		15D2CB99E3D83881A3740A4BAB8B4AC9 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56EA8722E14327470D6482F26F9EC56 /* Edge.swift */; };
+		122F4E917A438BC1F280B4A08A630E34 /* kp_2dtree.h in Headers */ = {isa = PBXBuildFile; fileRef = 64462A55DBED7A0170CE872E61D57DED /* kp_2dtree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C0E1EEE053A89B2D169AA7C7B524AAA /* KPClusteringController.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA393B8D8D25875AF877F65CEBBA9F1 /* KPClusteringController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DB6D02D322BD25F4590E8D933D55FFD /* KPGridClusteringAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF642A5BA79DC27B5A438FD9CF10F68 /* KPGridClusteringAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC3BE8CED4432A6094E7DD179A6E936 /* kingpin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D598841CADA78F0BDDDE457F4BFD2A /* kingpin-dummy.m */; };
 		2241ABC30538E46F17BC59AFC645B6C5 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 191E1C6095DA6537B3B9AD63F2DABA12 /* NSArray+PureLayout.m */; };
-		3594FB6E27F8CF8229A152EDCC3BEDD4 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4CEC69084357A14CC6EBD08A708EFE /* Constrain.swift */; };
+		2632D4B2889F0D54DD04A7191268C123 /* KPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = C411A192727574156F96A316336E232D /* KPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38792B4D4276C59B21ACF9B4DE6ED4F5 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = DAFA4BCE4B185A782DD016F84B3BE0CF /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BC286F3AF7D71C95405B664A61FC17E /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C753C2D641F9BEB5CB0B1DF686DF03 /* LayoutProxy.swift */; };
+		38D2264C883C5EEA5EAF02B7D9E1CFC1 /* KPClusteringAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 81236EA17E5186F4928126F1225F0656 /* KPClusteringAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B95DC84663119FBDD7BB8784589F296 /* KPAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB47782DF2B6280EEDD31CC58B7CEDC /* KPAnnotation.m */; };
 		40C283F04408D7C74CB6D9966B4CE10E /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDCF9208FAF09CC79F2DA4FA5683C82 /* ALView+PureLayout.m */; };
-		57868D629E66805028C95640E8670FA9 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71D486A606F1BBAA6CD135369381881 /* Dimension.swift */; };
+		4F178F713B3A7194A2D981003CAF276F /* KPGridClusteringAlgorithm_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A7003833906DCAABD0BF0C4CFFD4BE21 /* KPGridClusteringAlgorithm_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6354BF1C514445C33F9B65DD18205535 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 913E7306AD4E255661D418473382CF54 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C6672FF5BC14E5A632F38FBCF4D84F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9011C520EFA96D78421817354D237D35 /* Foundation.framework */; };
-		85C363E1D258CB19D194C44466134AA7 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FE107A924FEFBD1CD16AE3925528B0 /* Size.swift */; };
+		6ED6D7A6C6C7A2248EF5F02875CC1475 /* KPAnnotationTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 925E79F0A76FCBB1E85F730608063BD1 /* KPAnnotationTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C8DF76C3340F0DC3A9FB22A04CCF8E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABABE9AE3ED3076CA8D2F8BD1253D29 /* MapKit.framework */; };
+		7C6672FF5BC14E5A632F38FBCF4D84F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE278E023DBBC63005F3514CBF93DF8 /* Foundation.framework */; };
 		8A42E3EC15CA6EFC7A14FF66419B4E0A /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F5A0160929E8154C67BBC4B5A91B5C /* NSLayoutConstraint+PureLayout.m */; };
-		8B8BC14DA985B90BD6C742624A402CFF /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC4125910C573123C69A9B74C7F8F20 /* Coefficients.swift */; };
 		8FB29797E35802BE65A888432368F471 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DA7E900B1E7945C8B8CE59D225F706 /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90D1F9A249DC0A6E28F72F505BB72F24 /* Pods-Fun With Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4CA056948172CE7B1BE4912BCB96402 /* Pods-Fun With Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94141ABDA5ACF8C9BC4ED9A1E584DC3B /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86D6C3DD3221423CE506F07E7A6807E /* Expression.swift */; };
+		96E258B4C2D21847F41AB5FD2BFAAB37 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50C8B55077D3909E4014EA001FBC85F /* CoreLocation.framework */; };
 		98DE61629DE81688A6D460FF03DD172A /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E05779740DB7A4882324BB0CC77FE83 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A14486640C4DE1AD2ACF3F6D5F889448 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A9A9732C42804ECC9F7A84004AE9BA /* Context.swift */; };
-		A875BF05017777AAE908061C72384D18 /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857A34A323DC55C42BF89F2AF51BB38F /* ConstraintGroup.swift */; };
-		ADFD0F1AD25D7F680FD22F3F73FE5CCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9011C520EFA96D78421817354D237D35 /* Foundation.framework */; };
-		B51150B938C1F543B2E1C133CD10A0E2 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF547C0EA7899811A6BDEE2F21E4D2 /* Constraint.swift */; };
-		BB038D94BBD13CACFFC15FC96DA09005 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13978D09642E870F2FBDD42862C79315 /* Compound.swift */; };
+		9CC616EBB58563B5E26D8C372EB23465 /* KPAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FFC9C00F51D2A67E599F8DC8D93A923 /* KPAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4DC0A57A6EC2F722DBC8BEDACF48DCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE278E023DBBC63005F3514CBF93DF8 /* Foundation.framework */; };
+		A74A3F35DB8DCF7203BD3065E6CDE5DD /* kingpin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C728DBA88A05D73F673AEFB0D5E3FBF8 /* kingpin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1F726FD302EADD2C3ED71E6B7C52711 /* NSArray+KP.h in Headers */ = {isa = PBXBuildFile; fileRef = 782D37880EB1B246070DCC40F1993E5C /* NSArray+KP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B59AD26E392951ADFA8B48527FFB3F04 /* KPGridClusteringAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = E66C40949A72A6B9168EBE66ED96D478 /* KPGridClusteringAlgorithm.m */; };
+		B66277DD79059E87DB0D6C89EA2A6B4C /* Pods-Fun With Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7455C15B10B571694591278C6C3DA36 /* Pods-Fun With Swift-dummy.m */; };
+		BAC1C811E43E3B7C81BC711296C8E5E7 /* KPAnnotationTree_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 470AD91731A8F4F4A305EDA44F966C8D /* KPAnnotationTree_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEEF2FF4434A311B51CCAEA2D0BC4167 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADC5572B76BA1CB325993B5EB36DD36 /* PureLayout-dummy.m */; };
-		BF7357AC8E9ABF950252EE451F65D5BE /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B7BAF84514B77A530468A3F53DF16 /* ViewUtils.swift */; };
 		C07804D5CAE775845193B0BDEAE8153A /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 13DC162AF7BEBCA584CAF9D9CEAD8319 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C52D10174F6169C7FA4A5CAC9778A0A7 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FEEF4A8F56696379EDE141BDE01C2A /* Priority.swift */; };
-		CF300C337350D0C95A3E3524179D1A26 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DBACD985CDE011D7EC3369B1ED67AB /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF935A572897DE0A6B3C8055D5DA899E /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4354F04861D73136CF72C61C00441F /* Edges.swift */; };
-		D27CE29543E4C15A049E3EFE0FFF7112 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1D84417CD581A876383F890D35E93 /* Align.swift */; };
-		D4F8646D92E1217E750A994B45E83F96 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CFE1DDCD4477288A6305F5F0589F91 /* Point.swift */; };
-		D4FAA87FCBAE045AB65E198CA7BC1FFA /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B4780C1714091347D099752130BC40 /* Cartography-dummy.m */; };
+		C59EC6ECCDC06A01743CB53C3F937E2A /* NSArray+KP.m in Sources */ = {isa = PBXBuildFile; fileRef = 45877360F3615E4E3FD6CDA64CA5981D /* NSArray+KP.m */; };
+		D0D11C634CCF99D16E24F84BE08F7A14 /* KPAnnotationTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE258B8FE14772E7284DAD9EFC7065C /* KPAnnotationTree.m */; };
+		D73D039960F6B244FA4D05DBC8BCA089 /* KPClusteringController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454A9D67B82D56149EE8BBE1A2066B91 /* KPClusteringController.m */; };
 		E822E9813D45FF34F11862731B65F4D7 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD3AB8195F74BFC43D6997F61F6F298 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED381254175795F7369F08A30C5D7AF1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657394054B50034DF01CCFA0B990EB20 /* Extensions.swift */; };
+		EAE770371F2A9120688DA6D48930C72A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE278E023DBBC63005F3514CBF93DF8 /* Foundation.framework */; };
+		F3C28F2A62E694E05E2FCF9CEE7E26F8 /* kingpin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AED72166D82A3A29F857AB7FC0AB50B /* kingpin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9364D124457EB87196F09B4F5E7A5D9 /* Pods-Fun With Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B8E22D58C5F1FD36DD97C7ABAEEB4E /* Pods-Fun With Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9A3864238BEAF7F67E75EF7417D7AF4 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FBC3E333821E19620FAC1463F61C533 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		042C79E3B1C3570D94C8F9E7B979CB28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A723DAD93FDCCF729EE252AF950D1304;
-			remoteInfo = Cartography;
-		};
-		9EA01063A5C2D463E210845CD03A124D /* PBXContainerItemProxy */ = {
+		0C56F1033FA2451559314D2F7037ABFC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8240A687A12B3496C485DFBEB80E79E2;
 			remoteInfo = PureLayout;
 		};
+		23AC9EAC6D3B38D731B835740CD16EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C1B72552AD5CAF1CB16D8BF2EF5EA4;
+			remoteInfo = kingpin;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0044C456141C783C12DDF2A388AED29B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04CFE1DDCD4477288A6305F5F0589F91 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
-		0D4354F04861D73136CF72C61C00441F /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		0C1CFAC52944E115E79ECAA4A90D5A6A /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
 		0FBC3E333821E19620FAC1463F61C533 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
-		13978D09642E870F2FBDD42862C79315 /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
 		13DC162AF7BEBCA584CAF9D9CEAD8319 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
 		14F8C8705E99C96298E8948470C5F0FA /* Pods-Fun With Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Fun With Swift.modulemap"; sourceTree = "<group>"; };
 		17DA7E900B1E7945C8B8CE59D225F706 /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
 		191E1C6095DA6537B3B9AD63F2DABA12 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
-		1A3203D82CAFC04FA053F23F5ED76D91 /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cartography.modulemap; sourceTree = "<group>"; };
-		1D4D4C0FED98CA7B48F0E4646143857D /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
-		1E0A36F06FB9A577C08BC4DCC49D0E06 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
 		2069ED70F51875D807A16C2614156F55 /* Pods-Fun With Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fun With Swift-acknowledgements.plist"; sourceTree = "<group>"; };
-		22A0A6DF62A23C5E7EB3DC707C2E1C32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22EEF1A38ED13CD5F143E47FECCD9514 /* Pods-Fun With Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fun With Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		2B6CC86899F0E0C0C07AD5C753B2C95A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BF9E9827C03ED68C270949F9193A404 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		30B4780C1714091347D099752130BC40 /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
+		2CE706E019990198F556BA763EC197B5 /* kingpin-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "kingpin-Private.xcconfig"; sourceTree = "<group>"; };
+		2FFC9C00F51D2A67E599F8DC8D93A923 /* KPAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KPAnnotation.h; path = kingpin/KPAnnotation.h; sourceTree = "<group>"; };
 		34BE0BA12096455AB6760CFDF1005D58 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		40BF547C0EA7899811A6BDEE2F21E4D2 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
-		4D302D0B66DFA94DC7E4DE7934F2434B /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
-		5AC4125910C573123C69A9B74C7F8F20 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
-		657394054B50034DF01CCFA0B990EB20 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
-		668B7BAF84514B77A530468A3F53DF16 /* ViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewUtils.swift; path = Cartography/ViewUtils.swift; sourceTree = "<group>"; };
+		42F9E55EC48135A756CA33EE3591BE49 /* kingpin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = kingpin.xcconfig; sourceTree = "<group>"; };
+		454A9D67B82D56149EE8BBE1A2066B91 /* KPClusteringController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KPClusteringController.m; path = kingpin/KPClusteringController.m; sourceTree = "<group>"; };
+		45877360F3615E4E3FD6CDA64CA5981D /* NSArray+KP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+KP.m"; path = "kingpin/NSArray+KP.m"; sourceTree = "<group>"; };
+		470AD91731A8F4F4A305EDA44F966C8D /* KPAnnotationTree_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KPAnnotationTree_Private.h; path = kingpin/KPAnnotationTree_Private.h; sourceTree = "<group>"; };
+		4AED72166D82A3A29F857AB7FC0AB50B /* kingpin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kingpin.h; path = kingpin/kingpin.h; sourceTree = "<group>"; };
+		53D598841CADA78F0BDDDE457F4BFD2A /* kingpin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "kingpin-dummy.m"; sourceTree = "<group>"; };
+		5ABE17A7D02C60B2ACCC883279E12425 /* Pods-Fun With Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fun With Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		64462A55DBED7A0170CE872E61D57DED /* kp_2dtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kp_2dtree.h; path = kingpin/kp_2dtree.h; sourceTree = "<group>"; };
 		680A36505C3F57327E68211A01D2C2F5 /* Pods-Fun With Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fun With Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AF642A5BA79DC27B5A438FD9CF10F68 /* KPGridClusteringAlgorithm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KPGridClusteringAlgorithm.h; path = kingpin/KPGridClusteringAlgorithm.h; sourceTree = "<group>"; };
+		6BE278E023DBBC63005F3514CBF93DF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6E05779740DB7A4882324BB0CC77FE83 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
-		6E1A28DB42D0D871ED43324CF2A9A84B /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
 		6F16F0C1EA0C119C434FBD5032C6B19C /* PureLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PureLayout-Private.xcconfig"; sourceTree = "<group>"; };
 		6FDCF9208FAF09CC79F2DA4FA5683C82 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		6FE258B8FE14772E7284DAD9EFC7065C /* KPAnnotationTree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KPAnnotationTree.m; path = kingpin/KPAnnotationTree.m; sourceTree = "<group>"; };
+		71C9E4C949C56D31E6B70B4E8132FE24 /* kingpin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "kingpin-prefix.pch"; sourceTree = "<group>"; };
+		761A5DF92EA3F8E7982D325F1A9AA2B2 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		782D37880EB1B246070DCC40F1993E5C /* NSArray+KP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+KP.h"; path = "kingpin/NSArray+KP.h"; sourceTree = "<group>"; };
 		7ADC5572B76BA1CB325993B5EB36DD36 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
-		7F9F9CEBC0B90B5CC67890C96249564A /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
-		83B152E417EFF8CC6DCF30ED1A2B43C9 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
-		857A34A323DC55C42BF89F2AF51BB38F /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
-		87974C0EA5237832359BE85E08C19AC0 /* Cartography-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Cartography-Private.xcconfig"; sourceTree = "<group>"; };
-		8C56105F31B0DA40C018E937B3869EA4 /* Pods-Fun With Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fun With Swift-dummy.m"; sourceTree = "<group>"; };
-		9011C520EFA96D78421817354D237D35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		81236EA17E5186F4928126F1225F0656 /* KPClusteringAlgorithm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KPClusteringAlgorithm.h; path = kingpin/KPClusteringAlgorithm.h; sourceTree = "<group>"; };
+		83B8E22D58C5F1FD36DD97C7ABAEEB4E /* Pods-Fun With Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fun With Swift-umbrella.h"; sourceTree = "<group>"; };
+		90A25DA5F37CC0880C9F9D5E5850E039 /* kingpin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = kingpin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		913E7306AD4E255661D418473382CF54 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		925E79F0A76FCBB1E85F730608063BD1 /* KPAnnotationTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KPAnnotationTree.h; path = kingpin/KPAnnotationTree.h; sourceTree = "<group>"; };
 		97F5A0160929E8154C67BBC4B5A91B5C /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
-		97FE107A924FEFBD1CD16AE3925528B0 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
-		9CC69771EDFAD72FAFD177AD121112FF /* Pods_Fun_With_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fun_With_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD3AB8195F74BFC43D6997F61F6F298 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
-		9FE1D84417CD581A876383F890D35E93 /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
-		A1FEEF4A8F56696379EDE141BDE01C2A /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
-		A4CA056948172CE7B1BE4912BCB96402 /* Pods-Fun With Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fun With Swift-umbrella.h"; sourceTree = "<group>"; };
-		A8C753C2D641F9BEB5CB0B1DF686DF03 /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
-		B71D486A606F1BBAA6CD135369381881 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
-		BA4CEC69084357A14CC6EBD08A708EFE /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
+		A139A32E8A5E74636D3F2EDD0FB99E74 /* Pods_Fun_With_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fun_With_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26000862DE48842780DF85998AE507C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7003833906DCAABD0BF0C4CFFD4BE21 /* KPGridClusteringAlgorithm_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KPGridClusteringAlgorithm_Private.h; path = kingpin/KPGridClusteringAlgorithm_Private.h; sourceTree = "<group>"; };
+		ACA393B8D8D25875AF877F65CEBBA9F1 /* KPClusteringController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KPClusteringController.h; path = kingpin/KPClusteringController.h; sourceTree = "<group>"; };
+		B7455C15B10B571694591278C6C3DA36 /* Pods-Fun With Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fun With Swift-dummy.m"; sourceTree = "<group>"; };
+		B765D5A667FCBA4E858C05009BB979C3 /* kingpin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = kingpin.modulemap; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C86D6C3DD3221423CE506F07E7A6807E /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
-		D1DBACD985CDE011D7EC3369B1ED67AB /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
+		C1B041F205C2BB33CF67ED928542F511 /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
+		C411A192727574156F96A316336E232D /* KPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KPGeometry.h; path = kingpin/KPGeometry.h; sourceTree = "<group>"; };
+		C4F69A456F940E51FD6271975B529ECD /* Pods-Fun With Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fun With Swift.release.xcconfig"; sourceTree = "<group>"; };
+		C50C8B55077D3909E4014EA001FBC85F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		C5ADBECC8F93D33C74B257B12C66699D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C728DBA88A05D73F673AEFB0D5E3FBF8 /* kingpin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "kingpin-umbrella.h"; sourceTree = "<group>"; };
+		CFB47782DF2B6280EEDD31CC58B7CEDC /* KPAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KPAnnotation.m; path = kingpin/KPAnnotation.m; sourceTree = "<group>"; };
+		DABABE9AE3ED3076CA8D2F8BD1253D29 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 		DAFA4BCE4B185A782DD016F84B3BE0CF /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
-		E518756FFA54CC3C13514583F694DD2F /* Pods-Fun With Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fun With Swift.release.xcconfig"; sourceTree = "<group>"; };
+		E66C40949A72A6B9168EBE66ED96D478 /* KPGridClusteringAlgorithm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KPGridClusteringAlgorithm.m; path = kingpin/KPGridClusteringAlgorithm.m; sourceTree = "<group>"; };
 		E906737142C22AD82B02C31FE055BC71 /* Pods-Fun With Swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fun With Swift-frameworks.sh"; sourceTree = "<group>"; };
 		ED2811F0943917D6FD04B17095056D5A /* Pods-Fun With Swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fun With Swift-resources.sh"; sourceTree = "<group>"; };
-		EDCA62395F9C26F4C5A61020BE9FAEE0 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PureLayout.modulemap; sourceTree = "<group>"; };
-		F56EA8722E14327470D6482F26F9EC56 /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
-		F7917A3ED66F0F57A995479E5C49DC09 /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
-		F8A9A9732C42804ECC9F7A84004AE9BA /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8BE303317373FA61BEFFEC60A1011CEB /* Frameworks */ = {
+		353FB30197CDC38DD27916AF83DDF353 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B8B5C2200B8936DA6DD202B1F9DFB76 /* Foundation.framework in Frameworks */,
+				A4DC0A57A6EC2F722DBC8BEDACF48DCF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,17 +138,61 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5D5B9EC5FD030A1A6B1F75299697DA5 /* Frameworks */ = {
+		B297B69ACC8FF757CD7F403E49EE7904 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADFD0F1AD25D7F680FD22F3F73FE5CCC /* Foundation.framework in Frameworks */,
+				96E258B4C2D21847F41AB5FD2BFAAB37 /* CoreLocation.framework in Frameworks */,
+				EAE770371F2A9120688DA6D48930C72A /* Foundation.framework in Frameworks */,
+				78C8DF76C3340F0DC3A9FB22A04CCF8E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08FA39B96522122F1D327A0D7E175942 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74A9569F2C9013D615189959D4786947 /* PureLayout */,
+				D589FD6A132E1D3E7E34C030C731B7FB /* kingpin */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26D090EF8AD0246477667CDC1A078542 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26D090EF8AD0246477667CDC1A078542 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C50C8B55077D3909E4014EA001FBC85F /* CoreLocation.framework */,
+				6BE278E023DBBC63005F3514CBF93DF8 /* Foundation.framework */,
+				DABABE9AE3ED3076CA8D2F8BD1253D29 /* MapKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		37AF9552BCB5D37DD2D278DAFE63BA78 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5ADBECC8F93D33C74B257B12C66699D /* Info.plist */,
+				B765D5A667FCBA4E858C05009BB979C3 /* kingpin.modulemap */,
+				42F9E55EC48135A756CA33EE3591BE49 /* kingpin.xcconfig */,
+				2CE706E019990198F556BA763EC197B5 /* kingpin-Private.xcconfig */,
+				53D598841CADA78F0BDDDE457F4BFD2A /* kingpin-dummy.m */,
+				71C9E4C949C56D31E6B70B4E8132FE24 /* kingpin-prefix.pch */,
+				C728DBA88A05D73F673AEFB0D5E3FBF8 /* kingpin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/kingpin";
+			sourceTree = "<group>";
+		};
 		3B0360A8F91E2143FADA87A7033C89B5 /* Pods-Fun With Swift */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,23 +200,15 @@
 				14F8C8705E99C96298E8948470C5F0FA /* Pods-Fun With Swift.modulemap */,
 				680A36505C3F57327E68211A01D2C2F5 /* Pods-Fun With Swift-acknowledgements.markdown */,
 				2069ED70F51875D807A16C2614156F55 /* Pods-Fun With Swift-acknowledgements.plist */,
-				8C56105F31B0DA40C018E937B3869EA4 /* Pods-Fun With Swift-dummy.m */,
+				B7455C15B10B571694591278C6C3DA36 /* Pods-Fun With Swift-dummy.m */,
 				E906737142C22AD82B02C31FE055BC71 /* Pods-Fun With Swift-frameworks.sh */,
 				ED2811F0943917D6FD04B17095056D5A /* Pods-Fun With Swift-resources.sh */,
-				A4CA056948172CE7B1BE4912BCB96402 /* Pods-Fun With Swift-umbrella.h */,
-				22EEF1A38ED13CD5F143E47FECCD9514 /* Pods-Fun With Swift.debug.xcconfig */,
-				E518756FFA54CC3C13514583F694DD2F /* Pods-Fun With Swift.release.xcconfig */,
+				83B8E22D58C5F1FD36DD97C7ABAEEB4E /* Pods-Fun With Swift-umbrella.h */,
+				5ABE17A7D02C60B2ACCC883279E12425 /* Pods-Fun With Swift.debug.xcconfig */,
+				C4F69A456F940E51FD6271975B529ECD /* Pods-Fun With Swift.release.xcconfig */,
 			);
 			name = "Pods-Fun With Swift";
 			path = "Target Support Files/Pods-Fun With Swift";
-			sourceTree = "<group>";
-		};
-		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				9011C520EFA96D78421817354D237D35 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		5B9847342258558B4476720B709C849E /* Targets Support Files */ = {
@@ -187,94 +219,7 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		640A1225D0245AE69DF8A8A028A06455 /* Cartography */ = {
-			isa = PBXGroup;
-			children = (
-				9FE1D84417CD581A876383F890D35E93 /* Align.swift */,
-				5AC4125910C573123C69A9B74C7F8F20 /* Coefficients.swift */,
-				13978D09642E870F2FBDD42862C79315 /* Compound.swift */,
-				BA4CEC69084357A14CC6EBD08A708EFE /* Constrain.swift */,
-				40BF547C0EA7899811A6BDEE2F21E4D2 /* Constraint.swift */,
-				857A34A323DC55C42BF89F2AF51BB38F /* ConstraintGroup.swift */,
-				F8A9A9732C42804ECC9F7A84004AE9BA /* Context.swift */,
-				B71D486A606F1BBAA6CD135369381881 /* Dimension.swift */,
-				4D302D0B66DFA94DC7E4DE7934F2434B /* Distribute.swift */,
-				F56EA8722E14327470D6482F26F9EC56 /* Edge.swift */,
-				0D4354F04861D73136CF72C61C00441F /* Edges.swift */,
-				C86D6C3DD3221423CE506F07E7A6807E /* Expression.swift */,
-				657394054B50034DF01CCFA0B990EB20 /* Extensions.swift */,
-				A8C753C2D641F9BEB5CB0B1DF686DF03 /* LayoutProxy.swift */,
-				04CFE1DDCD4477288A6305F5F0589F91 /* Point.swift */,
-				A1FEEF4A8F56696379EDE141BDE01C2A /* Priority.swift */,
-				83B152E417EFF8CC6DCF30ED1A2B43C9 /* Property.swift */,
-				97FE107A924FEFBD1CD16AE3925528B0 /* Size.swift */,
-				1E0A36F06FB9A577C08BC4DCC49D0E06 /* View.swift */,
-				668B7BAF84514B77A530468A3F53DF16 /* ViewUtils.swift */,
-				9CF78D416278C0D795BB2EF6116444E0 /* Support Files */,
-			);
-			path = Cartography;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				EECC21B706338238DCC76EAB6D555084 /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				5B9847342258558B4476720B709C849E /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		9CF78D416278C0D795BB2EF6116444E0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1A3203D82CAFC04FA053F23F5ED76D91 /* Cartography.modulemap */,
-				F7917A3ED66F0F57A995479E5C49DC09 /* Cartography.xcconfig */,
-				87974C0EA5237832359BE85E08C19AC0 /* Cartography-Private.xcconfig */,
-				30B4780C1714091347D099752130BC40 /* Cartography-dummy.m */,
-				1D4D4C0FED98CA7B48F0E4646143857D /* Cartography-prefix.pch */,
-				D1DBACD985CDE011D7EC3369B1ED67AB /* Cartography-umbrella.h */,
-				22A0A6DF62A23C5E7EB3DC707C2E1C32 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Cartography";
-			sourceTree = "<group>";
-		};
-		BA145713FD8D5DAADE90140E1CEB44A3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0044C456141C783C12DDF2A388AED29B /* Info.plist */,
-				EDCA62395F9C26F4C5A61020BE9FAEE0 /* PureLayout.modulemap */,
-				6E1A28DB42D0D871ED43324CF2A9A84B /* PureLayout.xcconfig */,
-				6F16F0C1EA0C119C434FBD5032C6B19C /* PureLayout-Private.xcconfig */,
-				7ADC5572B76BA1CB325993B5EB36DD36 /* PureLayout-dummy.m */,
-				7F9F9CEBC0B90B5CC67890C96249564A /* PureLayout-prefix.pch */,
-				17DA7E900B1E7945C8B8CE59D225F706 /* PureLayout-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PureLayout";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2BF9E9827C03ED68C270949F9193A404 /* Cartography.framework */,
-				9CC69771EDFAD72FAFD177AD121112FF /* Pods_Fun_With_Swift.framework */,
-				34BE0BA12096455AB6760CFDF1005D58 /* PureLayout.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EA63DB21FF669095384D8B2F8096DAC8 /* PureLayout */ = {
+		74A9569F2C9013D615189959D4786947 /* PureLayout */ = {
 			isa = PBXGroup;
 			children = (
 				13DC162AF7BEBCA584CAF9D9CEAD8319 /* ALView+PureLayout.h */,
@@ -286,36 +231,98 @@
 				6E05779740DB7A4882324BB0CC77FE83 /* PureLayout.h */,
 				DAFA4BCE4B185A782DD016F84B3BE0CF /* PureLayout+Internal.h */,
 				0FBC3E333821E19620FAC1463F61C533 /* PureLayoutDefines.h */,
-				BA145713FD8D5DAADE90140E1CEB44A3 /* Support Files */,
+				95E5207BC63250BC0D18E35CEA742441 /* Support Files */,
 			);
 			path = PureLayout;
 			sourceTree = "<group>";
 		};
-		EECC21B706338238DCC76EAB6D555084 /* Pods */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				640A1225D0245AE69DF8A8A028A06455 /* Cartography */,
-				EA63DB21FF669095384D8B2F8096DAC8 /* PureLayout */,
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				08FA39B96522122F1D327A0D7E175942 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				5B9847342258558B4476720B709C849E /* Targets Support Files */,
 			);
-			name = Pods;
+			sourceTree = "<group>";
+		};
+		95E5207BC63250BC0D18E35CEA742441 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A26000862DE48842780DF85998AE507C /* Info.plist */,
+				761A5DF92EA3F8E7982D325F1A9AA2B2 /* PureLayout.modulemap */,
+				C1B041F205C2BB33CF67ED928542F511 /* PureLayout.xcconfig */,
+				6F16F0C1EA0C119C434FBD5032C6B19C /* PureLayout-Private.xcconfig */,
+				7ADC5572B76BA1CB325993B5EB36DD36 /* PureLayout-dummy.m */,
+				0C1CFAC52944E115E79ECAA4A90D5A6A /* PureLayout-prefix.pch */,
+				17DA7E900B1E7945C8B8CE59D225F706 /* PureLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A139A32E8A5E74636D3F2EDD0FB99E74 /* Pods_Fun_With_Swift.framework */,
+				34BE0BA12096455AB6760CFDF1005D58 /* PureLayout.framework */,
+				90A25DA5F37CC0880C9F9D5E5850E039 /* kingpin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D589FD6A132E1D3E7E34C030C731B7FB /* kingpin */ = {
+			isa = PBXGroup;
+			children = (
+				2FFC9C00F51D2A67E599F8DC8D93A923 /* KPAnnotation.h */,
+				CFB47782DF2B6280EEDD31CC58B7CEDC /* KPAnnotation.m */,
+				925E79F0A76FCBB1E85F730608063BD1 /* KPAnnotationTree.h */,
+				6FE258B8FE14772E7284DAD9EFC7065C /* KPAnnotationTree.m */,
+				470AD91731A8F4F4A305EDA44F966C8D /* KPAnnotationTree_Private.h */,
+				81236EA17E5186F4928126F1225F0656 /* KPClusteringAlgorithm.h */,
+				ACA393B8D8D25875AF877F65CEBBA9F1 /* KPClusteringController.h */,
+				454A9D67B82D56149EE8BBE1A2066B91 /* KPClusteringController.m */,
+				C411A192727574156F96A316336E232D /* KPGeometry.h */,
+				6AF642A5BA79DC27B5A438FD9CF10F68 /* KPGridClusteringAlgorithm.h */,
+				E66C40949A72A6B9168EBE66ED96D478 /* KPGridClusteringAlgorithm.m */,
+				A7003833906DCAABD0BF0C4CFFD4BE21 /* KPGridClusteringAlgorithm_Private.h */,
+				782D37880EB1B246070DCC40F1993E5C /* NSArray+KP.h */,
+				45877360F3615E4E3FD6CDA64CA5981D /* NSArray+KP.m */,
+				4AED72166D82A3A29F857AB7FC0AB50B /* kingpin.h */,
+				64462A55DBED7A0170CE872E61D57DED /* kp_2dtree.h */,
+				37AF9552BCB5D37DD2D278DAFE63BA78 /* Support Files */,
+			);
+			path = kingpin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		13159F958C4CB2434984C7C681E69780 /* Headers */ = {
+		109B5632DBEC0202B0A02105019B730D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF300C337350D0C95A3E3524179D1A26 /* Cartography-umbrella.h in Headers */,
+				9CC616EBB58563B5E26D8C372EB23465 /* KPAnnotation.h in Headers */,
+				6ED6D7A6C6C7A2248EF5F02875CC1475 /* KPAnnotationTree.h in Headers */,
+				BAC1C811E43E3B7C81BC711296C8E5E7 /* KPAnnotationTree_Private.h in Headers */,
+				38D2264C883C5EEA5EAF02B7D9E1CFC1 /* KPClusteringAlgorithm.h in Headers */,
+				1C0E1EEE053A89B2D169AA7C7B524AAA /* KPClusteringController.h in Headers */,
+				2632D4B2889F0D54DD04A7191268C123 /* KPGeometry.h in Headers */,
+				1DB6D02D322BD25F4590E8D933D55FFD /* KPGridClusteringAlgorithm.h in Headers */,
+				4F178F713B3A7194A2D981003CAF276F /* KPGridClusteringAlgorithm_Private.h in Headers */,
+				B1F726FD302EADD2C3ED71E6B7C52711 /* NSArray+KP.h in Headers */,
+				A74A3F35DB8DCF7203BD3065E6CDE5DD /* kingpin-umbrella.h in Headers */,
+				F3C28F2A62E694E05E2FCF9CEE7E26F8 /* kingpin.h in Headers */,
+				122F4E917A438BC1F280B4A08A630E34 /* kp_2dtree.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		778872D79A276CFD3F0FD4836E196332 /* Headers */ = {
+		873D6BC3236BBCAED401F1A714CFDC61 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D1F9A249DC0A6E28F72F505BB72F24 /* Pods-Fun With Swift-umbrella.h in Headers */,
+				F9364D124457EB87196F09B4F5E7A5D9 /* Pods-Fun With Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +343,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		17C1B72552AD5CAF1CB16D8BF2EF5EA4 /* kingpin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35B294111B0BA815D7214C2D54A1E61F /* Build configuration list for PBXNativeTarget "kingpin" */;
+			buildPhases = (
+				951090536F1E3E86D5E1FFD85946C2D2 /* Sources */,
+				B297B69ACC8FF757CD7F403E49EE7904 /* Frameworks */,
+				109B5632DBEC0202B0A02105019B730D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kingpin;
+			productName = kingpin;
+			productReference = 90A25DA5F37CC0880C9F9D5E5850E039 /* kingpin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		8240A687A12B3496C485DFBEB80E79E2 /* PureLayout */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29946541803109559D5B69F86E5F2398 /* Build configuration list for PBXNativeTarget "PureLayout" */;
@@ -353,40 +377,23 @@
 			productReference = 34BE0BA12096455AB6760CFDF1005D58 /* PureLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A28821F5D1373E4F57DA0C87E0EB1464 /* Pods-Fun With Swift */ = {
+		A5B68DE580FF5690943378055B0DB18F /* Pods-Fun With Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E0F3D06C7FCB182C50278314FD9DA58 /* Build configuration list for PBXNativeTarget "Pods-Fun With Swift" */;
+			buildConfigurationList = 8BF63EA2706E3068990D76BA5517A680 /* Build configuration list for PBXNativeTarget "Pods-Fun With Swift" */;
 			buildPhases = (
-				A5C1E26C1E45436D9816A67293C4A143 /* Sources */,
-				8BE303317373FA61BEFFEC60A1011CEB /* Frameworks */,
-				778872D79A276CFD3F0FD4836E196332 /* Headers */,
+				AB0D3CD2AED74A3566F681528512A8D2 /* Sources */,
+				353FB30197CDC38DD27916AF83DDF353 /* Frameworks */,
+				873D6BC3236BBCAED401F1A714CFDC61 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F60A73146B16521F59C7AE42692C53E6 /* PBXTargetDependency */,
-				825F6210876BBFA02874169EACCD26C4 /* PBXTargetDependency */,
+				D160AE5B08104283B7955777D11B143D /* PBXTargetDependency */,
+				5D908631001B8A7CE26EA1A1D419E8C6 /* PBXTargetDependency */,
 			);
 			name = "Pods-Fun With Swift";
 			productName = "Pods-Fun With Swift";
-			productReference = 9CC69771EDFAD72FAFD177AD121112FF /* Pods_Fun_With_Swift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A723DAD93FDCCF729EE252AF950D1304 /* Cartography */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 67EA04A4343281D7C2CF604758DD50FF /* Build configuration list for PBXNativeTarget "Cartography" */;
-			buildPhases = (
-				05993C6096081C055C7166F2A45BA373 /* Sources */,
-				B5D5B9EC5FD030A1A6B1F75299697DA5 /* Frameworks */,
-				13159F958C4CB2434984C7C681E69780 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Cartography;
-			productName = Cartography;
-			productReference = 2BF9E9827C03ED68C270949F9193A404 /* Cartography.framework */;
+			productReference = A139A32E8A5E74636D3F2EDD0FB99E74 /* Pods_Fun_With_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -410,47 +417,32 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A723DAD93FDCCF729EE252AF950D1304 /* Cartography */,
-				A28821F5D1373E4F57DA0C87E0EB1464 /* Pods-Fun With Swift */,
+				A5B68DE580FF5690943378055B0DB18F /* Pods-Fun With Swift */,
 				8240A687A12B3496C485DFBEB80E79E2 /* PureLayout */,
+				17C1B72552AD5CAF1CB16D8BF2EF5EA4 /* kingpin */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05993C6096081C055C7166F2A45BA373 /* Sources */ = {
+		951090536F1E3E86D5E1FFD85946C2D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D27CE29543E4C15A049E3EFE0FFF7112 /* Align.swift in Sources */,
-				D4FAA87FCBAE045AB65E198CA7BC1FFA /* Cartography-dummy.m in Sources */,
-				8B8BC14DA985B90BD6C742624A402CFF /* Coefficients.swift in Sources */,
-				BB038D94BBD13CACFFC15FC96DA09005 /* Compound.swift in Sources */,
-				3594FB6E27F8CF8229A152EDCC3BEDD4 /* Constrain.swift in Sources */,
-				B51150B938C1F543B2E1C133CD10A0E2 /* Constraint.swift in Sources */,
-				A875BF05017777AAE908061C72384D18 /* ConstraintGroup.swift in Sources */,
-				A14486640C4DE1AD2ACF3F6D5F889448 /* Context.swift in Sources */,
-				57868D629E66805028C95640E8670FA9 /* Dimension.swift in Sources */,
-				032EDD74D6FBA6203650F8E442720900 /* Distribute.swift in Sources */,
-				15D2CB99E3D83881A3740A4BAB8B4AC9 /* Edge.swift in Sources */,
-				CF935A572897DE0A6B3C8055D5DA899E /* Edges.swift in Sources */,
-				94141ABDA5ACF8C9BC4ED9A1E584DC3B /* Expression.swift in Sources */,
-				ED381254175795F7369F08A30C5D7AF1 /* Extensions.swift in Sources */,
-				3BC286F3AF7D71C95405B664A61FC17E /* LayoutProxy.swift in Sources */,
-				D4F8646D92E1217E750A994B45E83F96 /* Point.swift in Sources */,
-				C52D10174F6169C7FA4A5CAC9778A0A7 /* Priority.swift in Sources */,
-				05E54AE087E903270A6BA0F6C04B350B /* Property.swift in Sources */,
-				85C363E1D258CB19D194C44466134AA7 /* Size.swift in Sources */,
-				144577E02F10720EE2AE1CAB9EDB35DC /* View.swift in Sources */,
-				BF7357AC8E9ABF950252EE451F65D5BE /* ViewUtils.swift in Sources */,
+				3B95DC84663119FBDD7BB8784589F296 /* KPAnnotation.m in Sources */,
+				D0D11C634CCF99D16E24F84BE08F7A14 /* KPAnnotationTree.m in Sources */,
+				D73D039960F6B244FA4D05DBC8BCA089 /* KPClusteringController.m in Sources */,
+				B59AD26E392951ADFA8B48527FFB3F04 /* KPGridClusteringAlgorithm.m in Sources */,
+				C59EC6ECCDC06A01743CB53C3F937E2A /* NSArray+KP.m in Sources */,
+				1FC3BE8CED4432A6094E7DD179A6E936 /* kingpin-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5C1E26C1E45436D9816A67293C4A143 /* Sources */ = {
+		AB0D3CD2AED74A3566F681528512A8D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10D752E2F45A3F0D5914C8B2D16ED9B0 /* Pods-Fun With Swift-dummy.m in Sources */,
+				B66277DD79059E87DB0D6C89EA2A6B4C /* Pods-Fun With Swift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,21 +460,77 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		825F6210876BBFA02874169EACCD26C4 /* PBXTargetDependency */ = {
+		5D908631001B8A7CE26EA1A1D419E8C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = kingpin;
+			target = 17C1B72552AD5CAF1CB16D8BF2EF5EA4 /* kingpin */;
+			targetProxy = 23AC9EAC6D3B38D731B835740CD16EC6 /* PBXContainerItemProxy */;
+		};
+		D160AE5B08104283B7955777D11B143D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PureLayout;
 			target = 8240A687A12B3496C485DFBEB80E79E2 /* PureLayout */;
-			targetProxy = 9EA01063A5C2D463E210845CD03A124D /* PBXContainerItemProxy */;
-		};
-		F60A73146B16521F59C7AE42692C53E6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Cartography;
-			target = A723DAD93FDCCF729EE252AF950D1304 /* Cartography */;
-			targetProxy = 042C79E3B1C3570D94C8F9E7B979CB28 /* PBXContainerItemProxy */;
+			targetProxy = 0C56F1033FA2451559314D2F7037ABFC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		017D4FD02BF00B105A9C3E7C79B283A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABE17A7D02C60B2ACCC883279E12425 /* Pods-Fun With Swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Fun With Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Fun With Swift/Pods-Fun With Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Fun_With_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		05CA35340AEC3FC64A068514CC7468F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE706E019990198F556BA763EC197B5 /* kingpin-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.3.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.3.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/kingpin/kingpin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/kingpin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/kingpin/kingpin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = kingpin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		0997AB5ED2040116DCE72AD83BE302A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F16F0C1EA0C119C434FBD5032C6B19C /* PureLayout-Private.xcconfig */;
@@ -509,63 +557,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		3F25539997A9B58274A2596B45C933A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E518756FFA54CC3C13514583F694DD2F /* Pods-Fun With Swift.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Fun With Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-Fun With Swift/Pods-Fun With Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Fun_With_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		53DE00814622D08841CBF0270A37F060 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87974C0EA5237832359BE85E08C19AC0 /* Cartography-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.6.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.6.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Cartography;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -605,6 +596,33 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		6AB47DDEEE6E2F795A2481BC1011F72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE706E019990198F556BA763EC197B5 /* kingpin-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.3.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.3.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/kingpin/kingpin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/kingpin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/kingpin/kingpin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = kingpin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -667,9 +685,9 @@
 			};
 			name = Debug;
 		};
-		861336365CA7350BB9167879E18D6240 /* Debug */ = {
+		F4F44CCBF29CC5FE4B913A16D5D738D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22EEF1A38ED13CD5F143E47FECCD9514 /* Pods-Fun With Swift.debug.xcconfig */;
+			baseConfigurationReference = C4F69A456F940E51FD6271975B529ECD /* Pods-Fun With Swift.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -683,39 +701,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-Fun With Swift/Pods-Fun With Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_Fun_With_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C9DFEF1AB3CD54DF9B473AB110E0FB5D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87974C0EA5237832359BE85E08C19AC0 /* Cartography-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.6.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.6.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Cartography;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -745,20 +735,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E0F3D06C7FCB182C50278314FD9DA58 /* Build configuration list for PBXNativeTarget "Pods-Fun With Swift" */ = {
+		35B294111B0BA815D7214C2D54A1E61F /* Build configuration list for PBXNativeTarget "kingpin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				861336365CA7350BB9167879E18D6240 /* Debug */,
-				3F25539997A9B58274A2596B45C933A1 /* Release */,
+				05CA35340AEC3FC64A068514CC7468F4 /* Debug */,
+				6AB47DDEEE6E2F795A2481BC1011F72C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67EA04A4343281D7C2CF604758DD50FF /* Build configuration list for PBXNativeTarget "Cartography" */ = {
+		8BF63EA2706E3068990D76BA5517A680 /* Build configuration list for PBXNativeTarget "Pods-Fun With Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53DE00814622D08841CBF0270A37F060 /* Debug */,
-				C9DFEF1AB3CD54DF9B473AB110E0FB5D /* Release */,
+				017D4FD02BF00B105A9C3E7C79B283A0 /* Debug */,
+				F4F44CCBF29CC5FE4B913A16D5D738D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
