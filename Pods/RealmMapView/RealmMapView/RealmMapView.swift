@@ -81,9 +81,8 @@ public class RealmMapView: MKMapView {
         let rlmConfig = self.toRLMConfiguration(self.realmConfiguration)
         
         if let rlmRealm = try? RLMRealm(configuration: rlmConfig) {
-            
             let fetchRequest = ABFLocationFetchRequest(entityName: self.entityName!, inRealm: rlmRealm, latitudeKeyPath: self.latitudeKeyPath!, longitudeKeyPath: self.longitudeKeyPath!, forRegion: currentRegion)
-            
+          
             self.fetchedResultsController.updateLocationFetchRequest(fetchRequest, titleKeyPath: self.titleKeyPath!, subtitleKeyPath: self.subtitleKeyPath!)
             
             var refreshOperation: NSBlockOperation?
@@ -115,7 +114,7 @@ public class RealmMapView: MKMapView {
             self.mapQueue.addOperation(refreshOperation!)
         }
         
-        objc_sync_exit(self)
+        objc_sync_exit(self) //6390
     }
     
     // MARK: Initialization

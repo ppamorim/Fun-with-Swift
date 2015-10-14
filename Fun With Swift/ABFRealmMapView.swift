@@ -18,6 +18,11 @@ class ABFRealmMapView : UIViewController {
   var realmMapView : RealmMapView = {
     let realmMapView = RealmMapView.newAutoLayoutView()
     realmMapView.mapType = .Standard
+    realmMapView.entityName = "ABFRestaurantObject"
+    realmMapView.latitudeKeyPath = "latitude"
+    realmMapView.longitudeKeyPath = "longitude"
+    realmMapView.titleKeyPath = "name"
+    realmMapView.subtitleKeyPath = "phoneNumber"
     return realmMapView
     }()
   
