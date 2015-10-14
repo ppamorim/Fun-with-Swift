@@ -34,6 +34,7 @@ class ABFRealmMapView : UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    self.realmMapView.delegate = self
     var config = Realm.Configuration.defaultConfiguration
     config.path = ABFRestaurantScoresPath()
     self.realmMapView.realmConfiguration = config
@@ -54,4 +55,20 @@ class ABFRealmMapView : UIViewController {
     super.updateViewConstraints()
   }
   
+}
+
+extension ABFRealmMapView : MKMapViewDelegate {
+  
+  func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+    print(view)
+    return nil
+  }
+  
+  func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
+    print("ola!")
+  }
+  
+  func mapView(mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl){
+    print(view)
+  }
 }

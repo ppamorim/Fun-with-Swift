@@ -295,7 +295,9 @@ extension RealmMapView: MKMapViewDelegate {
             
             annotationView!.count = UInt(fetchedAnnotation.safeObjects.count)
             annotationView!.annotation = fetchedAnnotation
-            
+          
+          annotationView?.canShowCallout = false
+          
             return annotationView!
         }
         
