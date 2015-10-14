@@ -15,7 +15,14 @@
 		EBA6B5EA1BB23674006E889D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA6B5E81BB23674006E889D /* LaunchScreen.storyboard */; };
 		EBD123581BBB5843000308E3 /* KingPinBugController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD123571BBB5843000308E3 /* KingPinBugController.swift */; settings = {ASSET_TAGS = (); }; };
 		EBD1235A1BBB5F43000308E3 /* kingpin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD123591BBB5F43000308E3 /* kingpin.framework */; };
-		FAE4A8A6F242333D4B897F31 /* Pods_Fun_With_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E3D08A2AB66CAC9962833D /* Pods_Fun_With_Swift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EBF494091BCEA6AF008AC538 /* ABFRealmMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF494081BCEA6AF008AC538 /* ABFRealmMapView.swift */; settings = {ASSET_TAGS = (); }; };
+		EBF4940E1BCEA763008AC538 /* RBQFetchedResultsController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF4940A1BCEA763008AC538 /* RBQFetchedResultsController.framework */; };
+		EBF4940F1BCEA763008AC538 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF4940B1BCEA763008AC538 /* Realm.framework */; };
+		EBF494101BCEA763008AC538 /* RealmMapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF4940C1BCEA763008AC538 /* RealmMapView.framework */; };
+		EBF494111BCEA763008AC538 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF4940D1BCEA763008AC538 /* RealmSwift.framework */; };
+		EBF494141BCEBD32008AC538 /* RealmSwiftSFRestaurantData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF494121BCEBD32008AC538 /* RealmSwiftSFRestaurantData.framework */; };
+		EBF494151BCEBD32008AC538 /* SwiftFetchedResultsController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF494131BCEBD32008AC538 /* SwiftFetchedResultsController.framework */; };
+		FAE4A8A6F242333D4B897F31 /* Pods_Fun_With_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E3D08A2AB66CAC9962833D /* Pods_Fun_With_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		EBA6B5FF1BB2420A006E889D /* Cartography.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cartography.framework; path = "Pods/../build/Debug-iphoneos/Cartography.framework"; sourceTree = "<group>"; };
 		EBD123571BBB5843000308E3 /* KingPinBugController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingPinBugController.swift; sourceTree = "<group>"; };
 		EBD123591BBB5F43000308E3 /* kingpin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = kingpin.framework; path = "Pods/../build/Debug-iphoneos/kingpin.framework"; sourceTree = "<group>"; };
+		EBF494081BCEA6AF008AC538 /* ABFRealmMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ABFRealmMapView.swift; sourceTree = "<group>"; };
+		EBF4940A1BCEA763008AC538 /* RBQFetchedResultsController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RBQFetchedResultsController.framework; path = "Pods/../build/Debug-iphoneos/RBQFetchedResultsController.framework"; sourceTree = "<group>"; };
+		EBF4940B1BCEA763008AC538 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "Pods/../build/Debug-iphoneos/Realm.framework"; sourceTree = "<group>"; };
+		EBF4940C1BCEA763008AC538 /* RealmMapView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmMapView.framework; path = "Pods/../build/Debug-iphoneos/RealmMapView.framework"; sourceTree = "<group>"; };
+		EBF4940D1BCEA763008AC538 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "Pods/../build/Debug-iphoneos/RealmSwift.framework"; sourceTree = "<group>"; };
+		EBF494121BCEBD32008AC538 /* RealmSwiftSFRestaurantData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwiftSFRestaurantData.framework; path = "Pods/../build/Debug-iphoneos/RealmSwiftSFRestaurantData.framework"; sourceTree = "<group>"; };
+		EBF494131BCEBD32008AC538 /* SwiftFetchedResultsController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftFetchedResultsController.framework; path = "Pods/../build/Debug-iphoneos/SwiftFetchedResultsController.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF494141BCEBD32008AC538 /* RealmSwiftSFRestaurantData.framework in Frameworks */,
+				EBF494151BCEBD32008AC538 /* SwiftFetchedResultsController.framework in Frameworks */,
+				EBF4940E1BCEA763008AC538 /* RBQFetchedResultsController.framework in Frameworks */,
+				EBF4940F1BCEA763008AC538 /* Realm.framework in Frameworks */,
+				EBF494101BCEA763008AC538 /* RealmMapView.framework in Frameworks */,
+				EBF494111BCEA763008AC538 /* RealmSwift.framework in Frameworks */,
 				EBD1235A1BBB5F43000308E3 /* kingpin.framework in Frameworks */,
 				EB3A43A21BB2CBF000E103F3 /* PureLayout.framework in Frameworks */,
 				FAE4A8A6F242333D4B897F31 /* Pods_Fun_With_Swift.framework in Frameworks */,
@@ -80,6 +100,12 @@
 		20BEE8642562E2F26B604FD0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EBF494121BCEBD32008AC538 /* RealmSwiftSFRestaurantData.framework */,
+				EBF494131BCEBD32008AC538 /* SwiftFetchedResultsController.framework */,
+				EBF4940A1BCEA763008AC538 /* RBQFetchedResultsController.framework */,
+				EBF4940B1BCEA763008AC538 /* Realm.framework */,
+				EBF4940C1BCEA763008AC538 /* RealmMapView.framework */,
+				EBF4940D1BCEA763008AC538 /* RealmSwift.framework */,
 				EBD123591BBB5F43000308E3 /* kingpin.framework */,
 				EB3A43A11BB2CBF000E103F3 /* PureLayout.framework */,
 				EBA6B5FF1BB2420A006E889D /* Cartography.framework */,
@@ -118,6 +144,7 @@
 				EBD123571BBB5843000308E3 /* KingPinBugController.swift */,
 				EB38ACD61BBB6901004E0D1C /* ObjcHeader.h */,
 				EB38ACD71BBB6D9C004E0D1C /* TestAnnotation.swift */,
+				EBF494081BCEA6AF008AC538 /* ABFRealmMapView.swift */,
 			);
 			path = "Fun With Swift";
 			sourceTree = "<group>";
@@ -276,6 +303,7 @@
 				EB38ACD81BBB6D9C004E0D1C /* TestAnnotation.swift in Sources */,
 				EBA6B5E01BB23674006E889D /* AppDelegate.swift in Sources */,
 				EBD123581BBB5843000308E3 /* KingPinBugController.swift in Sources */,
+				EBF494091BCEA6AF008AC538 /* ABFRealmMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

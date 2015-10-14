@@ -1,13 +1,38 @@
 PODS:
-  - kingpin (0.3.0)
+  - kingpin (0.3.1)
   - PureLayout (3.0.1)
+  - RBQFetchedResultsController (2.3):
+    - Realm (>= 0.95)
+  - Realm (0.95.3):
+    - Realm/Headers (= 0.95.3)
+  - Realm/Headers (0.95.3)
+  - RealmMapView (1.4.1):
+    - RBQFetchedResultsController (>= 2.0)
+    - RealmSwift (>= 0.95.1)
+  - RealmSwift (0.95.3):
+    - Realm (= 0.95.3)
+  - RealmSwiftSFRestaurantData (0.3):
+    - RealmSwift
+  - SwiftFetchedResultsController (2.3):
+    - RBQFetchedResultsController (>= 2.3)
+    - RealmSwift (>= 0.95.1)
 
 DEPENDENCIES:
-  - kingpin
+  - kingpin (~> 0.3.1)
   - PureLayout
+  - RealmMapView
+  - RealmSwift
+  - RealmSwiftSFRestaurantData
+  - SwiftFetchedResultsController
 
 SPEC CHECKSUMS:
-  kingpin: 2976d472da6bfa1452ebeda768dd089226523aa8
+  kingpin: 52bb578006bdeb881db225e6ff1a4228375cbfbf
   PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+  RBQFetchedResultsController: bcae64615e1d8964ee57f6f217bfe4df1144590a
+  Realm: 55885fa05865344994ad8b56da96669ffa39fbf1
+  RealmMapView: 741bddee7ec82a2b02fe7ede786e6caf679dd131
+  RealmSwift: 586df4b5a6d01473d2653b16e9fe7debce4a87ed
+  RealmSwiftSFRestaurantData: 4ac6ff3da6b4d6a6bb52ed9481a347f94884114d
+  SwiftFetchedResultsController: de98ad9e9f7a0e56813b9beddce3b3ad6e603c6e
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

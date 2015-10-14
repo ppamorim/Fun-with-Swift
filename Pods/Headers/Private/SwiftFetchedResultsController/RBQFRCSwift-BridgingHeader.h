@@ -1,0 +1,1 @@
+../../../SwiftFetchedResultsController/Swift/RBQFRCSwift-BridgingHeader.h
