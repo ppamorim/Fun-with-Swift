@@ -50,6 +50,7 @@ class ABFRealmMapView : UIViewController {
     if(!didUpdateViews) {
       realmMapView.autoMatchDimension(.Width, toDimension: .Width, ofView: self.view)
       realmMapView.autoMatchDimension(.Height, toDimension: .Height, ofView: self.view)
+      realmMapView.autoCenterInSuperview()
       didUpdateViews = true
     }
     super.updateViewConstraints()
