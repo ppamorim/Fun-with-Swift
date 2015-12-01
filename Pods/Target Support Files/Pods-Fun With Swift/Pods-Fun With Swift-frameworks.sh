@@ -84,6 +84,8 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-Fun With Swift/Alamofire.framework"
+  install_framework "Pods-Fun With Swift/AlamofireImage.framework"
   install_framework "Pods-Fun With Swift/PureLayout.framework"
   install_framework "Pods-Fun With Swift/RBQFetchedResultsController.framework"
   install_framework "Pods-Fun With Swift/Realm.framework"
@@ -94,6 +96,8 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Fun With Swift/kingpin.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-Fun With Swift/Alamofire.framework"
+  install_framework "Pods-Fun With Swift/AlamofireImage.framework"
   install_framework "Pods-Fun With Swift/PureLayout.framework"
   install_framework "Pods-Fun With Swift/RBQFetchedResultsController.framework"
   install_framework "Pods-Fun With Swift/Realm.framework"

@@ -9,7 +9,7 @@ private let NumberOfAnnotations = 1000
 
 class KingPinBugController : UIViewController {
   
-  var didUpdateViews = false;
+  var didUpdateViews = false
   
   private var clusteringController : KPClusteringController!
   

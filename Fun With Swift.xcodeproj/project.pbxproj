@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		EB38ACD81BBB6D9C004E0D1C /* TestAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB38ACD71BBB6D9C004E0D1C /* TestAnnotation.swift */; settings = {ASSET_TAGS = (); }; };
 		EB3A43A21BB2CBF000E103F3 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3A43A11BB2CBF000E103F3 /* PureLayout.framework */; };
+		EB6E7C0C1C0E37E0004DDAA9 /* AlamofireImageFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6E7C0B1C0E37E0004DDAA9 /* AlamofireImageFilterController.swift */; settings = {ASSET_TAGS = (); }; };
+		EB6E7C0F1C0E3A76004DDAA9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6E7C0D1C0E3A76004DDAA9 /* Alamofire.framework */; };
+		EB6E7C101C0E3A76004DDAA9 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6E7C0E1C0E3A76004DDAA9 /* AlamofireImage.framework */; };
 		EBA6B5E01BB23674006E889D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA6B5DF1BB23674006E889D /* AppDelegate.swift */; };
 		EBA6B5E51BB23674006E889D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA6B5E31BB23674006E889D /* Main.storyboard */; };
 		EBA6B5E71BB23674006E889D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA6B5E61BB23674006E889D /* Assets.xcassets */; };
@@ -42,6 +45,9 @@
 		EB38ACD61BBB6901004E0D1C /* ObjcHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcHeader.h; sourceTree = "<group>"; };
 		EB38ACD71BBB6D9C004E0D1C /* TestAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAnnotation.swift; sourceTree = "<group>"; };
 		EB3A43A11BB2CBF000E103F3 /* PureLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PureLayout.framework; path = "Pods/../build/Debug-iphoneos/PureLayout.framework"; sourceTree = "<group>"; };
+		EB6E7C0B1C0E37E0004DDAA9 /* AlamofireImageFilterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireImageFilterController.swift; sourceTree = "<group>"; };
+		EB6E7C0D1C0E3A76004DDAA9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		EB6E7C0E1C0E3A76004DDAA9 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = "Pods/../build/Debug-iphoneos/AlamofireImage.framework"; sourceTree = "<group>"; };
 		EBA6B5DC1BB23674006E889D /* Fun With Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fun With Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA6B5DF1BB23674006E889D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBA6B5E41BB23674006E889D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB6E7C0F1C0E3A76004DDAA9 /* Alamofire.framework in Frameworks */,
+				EB6E7C101C0E3A76004DDAA9 /* AlamofireImage.framework in Frameworks */,
 				EBF494141BCEBD32008AC538 /* RealmSwiftSFRestaurantData.framework in Frameworks */,
 				EBF494151BCEBD32008AC538 /* SwiftFetchedResultsController.framework in Frameworks */,
 				EBF4940E1BCEA763008AC538 /* RBQFetchedResultsController.framework in Frameworks */,
@@ -100,6 +108,8 @@
 		20BEE8642562E2F26B604FD0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB6E7C0D1C0E3A76004DDAA9 /* Alamofire.framework */,
+				EB6E7C0E1C0E3A76004DDAA9 /* AlamofireImage.framework */,
 				EBF494121BCEBD32008AC538 /* RealmSwiftSFRestaurantData.framework */,
 				EBF494131BCEBD32008AC538 /* SwiftFetchedResultsController.framework */,
 				EBF4940A1BCEA763008AC538 /* RBQFetchedResultsController.framework */,
@@ -145,6 +155,7 @@
 				EB38ACD61BBB6901004E0D1C /* ObjcHeader.h */,
 				EB38ACD71BBB6D9C004E0D1C /* TestAnnotation.swift */,
 				EBF494081BCEA6AF008AC538 /* ABFRealmMapView.swift */,
+				EB6E7C0B1C0E37E0004DDAA9 /* AlamofireImageFilterController.swift */,
 			);
 			path = "Fun With Swift";
 			sourceTree = "<group>";
@@ -303,6 +314,7 @@
 			files = (
 				EB38ACD81BBB6D9C004E0D1C /* TestAnnotation.swift in Sources */,
 				EBA6B5E01BB23674006E889D /* AppDelegate.swift in Sources */,
+				EB6E7C0C1C0E37E0004DDAA9 /* AlamofireImageFilterController.swift in Sources */,
 				EBD123581BBB5843000308E3 /* KingPinBugController.swift in Sources */,
 				EBF494091BCEA6AF008AC538 /* ABFRealmMapView.swift in Sources */,
 			);

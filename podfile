@@ -9,5 +9,6 @@ target 'Fun With Swift' do
   pod 'RealmSwift'
   pod 'SwiftFetchedResultsController'
   pod 'RealmSwiftSFRestaurantData'
+  pod 'AlamofireImage', '~> 2.1.1'
 end
 
