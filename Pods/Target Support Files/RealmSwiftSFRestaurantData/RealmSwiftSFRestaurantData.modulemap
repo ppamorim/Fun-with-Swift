@@ -1,6 +1,0 @@
-framework module RealmSwiftSFRestaurantData {
-  umbrella header "RealmSwiftSFRestaurantData-umbrella.h"
-
-  export *
-  module * { export * }
-}

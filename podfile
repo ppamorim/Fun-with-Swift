@@ -4,11 +4,5 @@ use_frameworks!
 
 target 'Fun With Swift' do
   pod 'PureLayout'
-  pod 'kingpin', '~> 0.3.1'
-  pod 'RealmMapView'
-  pod 'RealmSwift'
-  pod 'SwiftFetchedResultsController'
-  pod 'RealmSwiftSFRestaurantData'
   pod 'AlamofireImage', '~> 2.1.1'
 end
-

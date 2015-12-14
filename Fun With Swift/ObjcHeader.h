@@ -9,6 +9,4 @@
 #ifndef ObjcHeader_h
 #define ObjcHeader_h
 
-#import <kingpin/kingpin.h>
-
 #endif /* ObjcHeader_h */

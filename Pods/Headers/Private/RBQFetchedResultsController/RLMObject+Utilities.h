@@ -1,1 +1,0 @@
-../../../RBQFetchedResultsController/RBQFetchedResultsController/RealmUtilities/RLMObject+Utilities.h

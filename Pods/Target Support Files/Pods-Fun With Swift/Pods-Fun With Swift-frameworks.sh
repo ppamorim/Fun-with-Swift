@@ -87,23 +87,9 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Fun With Swift/Alamofire.framework"
   install_framework "Pods-Fun With Swift/AlamofireImage.framework"
   install_framework "Pods-Fun With Swift/PureLayout.framework"
-  install_framework "Pods-Fun With Swift/RBQFetchedResultsController.framework"
-  install_framework "Pods-Fun With Swift/Realm.framework"
-  install_framework "Pods-Fun With Swift/RealmMapView.framework"
-  install_framework "Pods-Fun With Swift/RealmSwift.framework"
-  install_framework "Pods-Fun With Swift/RealmSwiftSFRestaurantData.framework"
-  install_framework "Pods-Fun With Swift/SwiftFetchedResultsController.framework"
-  install_framework "Pods-Fun With Swift/kingpin.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Fun With Swift/Alamofire.framework"
   install_framework "Pods-Fun With Swift/AlamofireImage.framework"
   install_framework "Pods-Fun With Swift/PureLayout.framework"
-  install_framework "Pods-Fun With Swift/RBQFetchedResultsController.framework"
-  install_framework "Pods-Fun With Swift/Realm.framework"
-  install_framework "Pods-Fun With Swift/RealmMapView.framework"
-  install_framework "Pods-Fun With Swift/RealmSwift.framework"
-  install_framework "Pods-Fun With Swift/RealmSwiftSFRestaurantData.framework"
-  install_framework "Pods-Fun With Swift/SwiftFetchedResultsController.framework"
-  install_framework "Pods-Fun With Swift/kingpin.framework"
 fi
