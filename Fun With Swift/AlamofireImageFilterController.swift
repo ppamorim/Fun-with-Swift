@@ -20,18 +20,30 @@ class AlamofireImageFilterController : UIViewController {
   override func loadView() {
     super.loadView()
     self.view.addSubview(tableView)
+    configDelegate()
     self.view.setNeedsUpdateConstraints()
+  }
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    tableView.reloadData()
   }
 
   override func updateViewConstraints() {
     if(!didUpdateViews) {
       tableView.autoPinEdgesToSuperviewEdges()
-      tableView.delegate = self
-      tableView.dataSource = self
-      tableView.reloadData()
       didUpdateViews = true
     }
     super.updateViewConstraints()
+  }
+  
+  override func viewWillLayoutSubviews() {
+    super.viewWillLayoutSubviews()
+  }
+  
+  func configDelegate() {
+    tableView.delegate = self
+    tableView.dataSource = self
   }
   
 }
@@ -58,20 +70,14 @@ extension AlamofireImageFilterController : UITableViewDataSource {
     return self.links.count ?? 0
   }
   
+  func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+    let imageCell = cell as! ImageViewCell
+    imageCell.url = links[indexPath.row]
+    imageCell.update()
+  }
+  
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCellWithIdentifier("ImageViewCell", forIndexPath: indexPath) as! ImageViewCell
-    
-    let filter = AspectScaledToFillSizeWithRoundedCornersFilter(
-      size: cell.someImage.frame.size,
-      radius: 5.0)
-    
-    cell.someImage.af_setImageWithURL(
-      NSURL(string: (links[indexPath.row]))!,
-      placeholderImage: nil,
-      filter: filter,
-      imageTransition: .None)
-    
-    return cell
+    return tableView.dequeueReusableCellWithIdentifier("ImageViewCell", forIndexPath: indexPath)
   }
   
 }
